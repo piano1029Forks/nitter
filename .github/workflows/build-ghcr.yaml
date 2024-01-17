@@ -1,0 +1,25 @@
+on:
+  push:
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+        with:
+          ref: guest_accounts
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
+
+      - name: Build and Push Docker Image
+        env:
+          DOCKER_BUILDKIT: 1
+        run: |
+          echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+          docker buildx create --use
+          docker buildx build -f Dockerfile -t ghcr.io/piano1029Forks/nitter:latest . --push
