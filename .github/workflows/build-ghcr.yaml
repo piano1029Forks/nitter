@@ -12,6 +12,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: guest_accounts
+          repository: zedeus/nitter
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
