@@ -81,7 +81,9 @@ const
   "verified_phone_label_enabled": false,
   "vibe_api_enabled": false,
   "view_counts_everywhere_api_enabled": false,
-  "immersive_video_status_linkable_timestamps": false
+  "immersive_video_status_linkable_timestamps": false,
+  "c9s_tweet_anatomy_moderator_badge_enabled": false,
+  "rweb_video_timestamps_enabled": false
 }""".replace(" ", "").replace("\n", "")
 
   tweetVariables* = """{
