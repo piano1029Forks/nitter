@@ -11,18 +11,18 @@ const
   photoRail* = api / "1.1/statuses/media_timeline.json"
 
   graphql = api / "graphql"
-  graphUser* = graphql / "k5XapwcSikNsEsILW5FvgA/UserResultByScreenNameQuery"
-  graphUserById* = graphql / "oPppcargziU1uDQHAUmH-A/UserResultByIdQuery"
+  graphUser* = graphql / "AJO430nSYOou_HJ-GIRzTQ/UserResultByScreenNameQuery"
+  graphUserById* = graphql / "8BTUdO2H4nAu26mgdE7_aQ-A/UserResultByIdQuery"
   graphUserTweets* = graphql / "3JNH4e9dq1BifLxAa3UMWg/UserWithProfileTweetsQueryV2"
-  graphUserTweetsAndReplies* = graphql / "8IS8MaO-2EN6GZZZb8jF0g/UserWithProfileTweetsAndRepliesQueryV2"
-  graphUserMedia* = graphql / "PDfFf8hGeJvUCiTyWtw4wQ/MediaTimelineV2"
+  graphUserTweetsAndReplies* = graphql / "WaFZV8TcAiesKXLhcL14LQ/UserWithProfileTweetsAndRepliesQueryV2"
+  graphUserMedia* = graphql / "HGadlr1FG_i-Nk3ms9oysw/MediaTimelineV2"
   graphTweet* = graphql / "1ra1rFDRUquziGxksi5ifg/TweetDetail"
-  graphTweetResult* = graphql / "sITyJdhRPpvpEjg4waUmTA/TweetResultByIdQuery"
-  graphSearchTimeline* = graphql / "ummoVKaeoT01eUyXutiSVQ/SearchTimeline"
+  graphTweetResult* = graphql / "-4KJkAxwnr5ziutM9brE9w/TweetResultByIdQuery"
+  graphSearchTimeline* = graphql / "kk6ixU4oM4SKooHuVYHe7Q/SearchTimeline"
   graphListById* = graphql / "iTpgCtbdxrsJfyx0cFjHqg/ListByRestId"
   graphListBySlug* = graphql / "-kmqNvm5Y-cVrfvBy6docg/ListBySlug"
   graphListMembers* = graphql / "P4NpVZDqUD_7MEM84L-8nw/ListMembers"
-  graphListTweets* = graphql / "BbGLL1ZfMibdFNWlk7a0Pw/ListTimeline"
+  graphListTweets* = graphql / "eoCr0usuUL-m3o_BL7ArgA/ListTimeline"
 
   timelineParams* = {
     "include_can_media_tag": "1",
