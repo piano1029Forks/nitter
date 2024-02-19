@@ -80,7 +80,8 @@ const
   "unified_cards_ad_metadata_container_dynamic_card_content_query_enabled": false,
   "verified_phone_label_enabled": false,
   "vibe_api_enabled": false,
-  "view_counts_everywhere_api_enabled": false
+  "view_counts_everywhere_api_enabled": false,
+  "immersive_video_status_linkable_timestamps": false
 }""".replace(" ", "").replace("\n", "")
 
   tweetVariables* = """{
