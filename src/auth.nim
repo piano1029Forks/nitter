@@ -38,7 +38,7 @@ proc hasExpired(account: GuestAccount): bool =
     created = snowflakeToEpoch(account.id)
     now = epochTime().int64
     daysOld = int(now - created) div dayInSeconds
-  return false # daysOld > 30
+  return daysOld < 30
 
 proc getAccountPoolHealth*(): JsonNode =
   let now = epochTime().int
