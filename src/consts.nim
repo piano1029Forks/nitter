@@ -18,7 +18,7 @@ const
   graphUserMedia* = graphql / "PDfFf8hGeJvUCiTyWtw4wQ/MediaTimelineV2"
   graphTweet* = graphql / "1ra1rFDRUquziGxksi5ifg/TweetDetail"
   graphTweetResult* = graphql / "sITyJdhRPpvpEjg4waUmTA/TweetResultByIdQuery"
-  graphSearchTimeline* = graphql / "gkjsKepM6gl_HmFWoWKfgg/SearchTimeline"
+  graphSearchTimeline* = graphql / "ummoVKaeoT01eUyXutiSVQ/SearchTimeline"
   graphListById* = graphql / "iTpgCtbdxrsJfyx0cFjHqg/ListByRestId"
   graphListBySlug* = graphql / "-kmqNvm5Y-cVrfvBy6docg/ListBySlug"
   graphListMembers* = graphql / "P4NpVZDqUD_7MEM84L-8nw/ListMembers"
