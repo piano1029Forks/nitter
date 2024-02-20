@@ -15,6 +15,9 @@ function playVideo(overlay) {
             hls.startLoad();
             video.play();
         });
+        hls.on(Hls.Events.ERROR, function (event, data) {
+            console.log(`HLS ERROR!`, data)
+        })
     } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
         video.src = url;
         video.addEventListener('canplay', function() {
